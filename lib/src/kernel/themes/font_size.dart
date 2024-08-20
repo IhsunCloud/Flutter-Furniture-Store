@@ -1,5 +1,5 @@
 class FontSizes {
-  static const extraSmall = 14.0;
+  static const extraSmall = 12.0;
   static const small = 16.0;
   static const standard = 18.0;
   static const large = 20.0;
