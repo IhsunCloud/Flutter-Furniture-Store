@@ -11,42 +11,43 @@ class AppTheme {
   static ThemeData get lightTheme {
     return ThemeData(
       textTheme: TextTheme(
-        bodySmall: GoogleFonts.alegreyaSans(
+        bodySmall: GoogleFonts.vazirmatn(
           fontSize: FontSizes.small,
-          color: ColorPalette.cynicalBlack,
+          color: ColorPalette.cosmosBlue,
         ),
-        bodyMedium: GoogleFonts.alegreyaSans(
+        bodyMedium: GoogleFonts.vazirmatn(
           fontSize: FontSizes.standard,
-          color: Colors.white,
+          color: ColorPalette.cosmosBlue,
         ),
-        bodyLarge: GoogleFonts.alegreyaSans(
+        bodyLarge: GoogleFonts.vazirmatn(
           fontSize: FontSizes.large,
-          color: ColorPalette.cynicalBlack,
+          color: ColorPalette.cosmosBlue,
         ),
-        titleSmall: GoogleFonts.alegreyaSans(
+        titleSmall: GoogleFonts.vazirmatn(
           fontSize: FontSizes.large,
-          color: ColorPalette.cynicalBlack,
+          color: ColorPalette.cosmosBlue,
         ),
-        titleMedium: GoogleFonts.alegreyaSans(
-          fontSize: FontSizes.extraLarge,
-          color: ColorPalette.cynicalBlack,
-        ),
-        titleLarge: GoogleFonts.alegreyaSans(
+        titleMedium: GoogleFonts.vazirmatn(
           fontSize: FontSizes.doubleExtraLarge,
-          color: ColorPalette.cynicalBlack,
+          color: ColorPalette.cosmosBlue,
           fontWeight: FontWeight.bold,
         ),
-        labelSmall: GoogleFonts.alegreyaSans(
+        titleLarge: GoogleFonts.vazirmatn(
+          fontSize: FontSizes.large,
+          fontWeight: FontWeight.bold,
+          color: ColorPalette.cosmosBlue,
+        ),
+        labelSmall: GoogleFonts.vazirmatn(
           fontSize: FontSizes.small,
-          color: ColorPalette.cynicalBlack,
+          color: ColorPalette.cosmosBlue,
         ),
-        labelMedium: GoogleFonts.alegreyaSans(
+        labelMedium: GoogleFonts.vazirmatn(
           fontSize: FontSizes.extraLarge,
-          color: ColorPalette.cynicalBlack,
+          color: ColorPalette.cosmosBlue,
         ),
-        labelLarge: GoogleFonts.alegreyaSans(
+        labelLarge: GoogleFonts.vazirmatn(
           fontSize: FontSizes.doubleExtraLarge,
-          color: ColorPalette.cynicalBlack,
+          color: ColorPalette.cosmosBlue,
           fontWeight: FontWeight.bold,
         ),
       ),
