@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:furniture_store/src/kernel/painless.dart';
 
 class ProductPoster extends StatelessWidget {
   final String id;
