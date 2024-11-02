@@ -21,7 +21,7 @@ class Kernel extends StatelessWidget {
       ],
       supportedLocales: const [
         Locale("fa", "IR"),
-      ],
+    ],
       locale: const Locale("fa", "IR"),
       theme: AppTheme.lightTheme,
       home: const HomeScreen(),
